@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+h2{
+    text-align: center;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.menuNavegacao{
+    background-color: #057705;
+    height: 8vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+
+}
+.menu{
+    display: flex;
+    gap: 35px;
+}
+
+.imagemFundo{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    
+}
+.secaoPrincipal{
+    background-color: #f0f0f0;;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+    
+}
+.secaoPrincipal .introducao p{
+    padding: 8px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+p, span{
+    padding: 8px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+
+
+
+.secaoSecundaria{
+    background-color: #8099ccab ;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+ 
+}
+
+.cards{
+    background-color:  #fad645;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    width: 95%;
+
+}
+.cards .imagem{
+    width: 170px;
+    height: 170px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.culturaTradicao{
+    width: 90%;
+}
+
+.culturaTradicao .imagamCultura{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+.letras{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul{
+    padding: 0 25px;
+}
+
+
+
+
+/*CORES DA BANDEIRAS DE PORTUGAL 
+Verde: #006600
+Vermelho: #FF0000
+Amarelo: #FFCC00
+Azul: #003399
+Branco: #FFFFFF*/
