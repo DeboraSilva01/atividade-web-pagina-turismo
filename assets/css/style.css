@@ -9,6 +9,7 @@ a{
     text-decoration: none;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
 }
 
 
@@ -74,19 +75,9 @@ ul, ol{
     cursor: pointer;
 }
 
-.imagemFundo{
-    height: 40vh;
-    width: 40vw;
-    display: flex;
-    gap: 20px;
-    
-}
 
-.imagemFundo img{
-    margin: 10px;
-}
 .secaoPrincipal{
-    background-color: #f0f0f0;;
+    background-color: #f0f0f0;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -94,10 +85,13 @@ ul, ol{
     width: 90vw;
     
 }
-.secaoPrincipal .introducao p{
-    padding: 8px;
-    text-align: justify;
-    font-size: 16px;
+.introducao{
+    display: flex;
+    gap: 25px;
+    margin: 30px 20px 0px 20px;
+    padding: 10px;
+    align-items: center;
+  
 }
 
 .secaoSecundaria{
@@ -110,40 +104,69 @@ ul, ol{
     width: 90vw;
 
 }
-.foto{
-    width: 350px;
-    height: 350px;
-    object-fit: cover;
+.cardsEvents{
+    display: flex;
+    width: 90vw;
+    gap: 35px;
+    padding: 35px;
 }
 
-.cards{
-    background-color:  #fad645;
+.cardTop{
+    background-color: #fad645;
+    width: 20%;
+    padding: 10px;
+    border-radius: 20px;
     border: 1px solid black;
-    border-radius: 10px;
+    text-align: justify;
+}
+
+
+.colecao{
     display: flex;
-    width: 95%;
-
+    align-items: center;
+    gap: 25PX;
+    width: 90vw;
+    margin: 20px;
 }
-.cards .imagem{
-    width: 170px;
-    height: 170px;
-    border-radius: 10px 0px 0px 10px;
+/*
+#colecao > div{
+    background-color: #FF0000;
+   float: left;
+   width: 25%;
+   padding: 15px;
+
+}*/
+
+.cardFotos{
+    width: 33%;
+    height: 175px;
+    overflow: hidden;
+
+    padding: 10px;
+    border-radius: 5px;
 }
 
-.culturaTradicao{
-    width: 90%;
+.cardFotos.active {
+    height: auto;
 }
 
-.culturaTradicao .imagamCentro{
+
+.cardFotos img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.button-action{
     display: flex;
-    justify-content: center;
-    margin: 25px 0;
+    align-items: center;
+    cursor:pointer;
+    height: 30vh;
+}
+.button-action:hover{
+    
+    background-color: rgb(196, 226, 252);
 }
 
-.destaque{
-    font-weight: bold;
-    font-size: 20px;
-}
 
 
 
@@ -164,6 +187,19 @@ ul, ol{
     align-items: center;
 }
 
+.avaleacao{
+    display: flex;
+    flex-direction: column;
+    border: 1px solidn black;
+    width: 350px;
+    align-items: center;
+}
+.avaleacao button{
+    padding: 10px;
+    background-color: #eee01e;
+    cursor: pointer;
+
+}
 
 
 
